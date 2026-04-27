@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      background-color: pink;
+      height: 48px;
+      width: 200px;
+      /* 多行文本溢出显示省略号，修改盒子高度为正好显示行数的高度 */
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    "小妖怪的夏天"团队！动画还是会
+    威威保护的关于背后的千八
+    百很大区别于i好吧吧hi打鼓u啊uu吧
+    你爸爸还不得时间诺比
+  </div>
+</body>
+
+</html>
